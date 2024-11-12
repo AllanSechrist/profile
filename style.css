@@ -65,6 +65,13 @@ button {
   border-radius: 5px;
   width: 100px;
   height: 25px;
+  color: #4f4d46;
+  background-color: #ede8d0;
+}
+
+button:hover {
+  background-color: #4f4d46;
+  color: #ede8d0;
 }
 
 a {
