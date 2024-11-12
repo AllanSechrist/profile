@@ -1,0 +1,93 @@
+.profile {
+  height: 25%;
+  width:  25%;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: #c9c5b1;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 25px;
+}
+
+.link-color {
+  background-color: #c9c5b1;
+}
+
+.fa-facebook{
+  color: #4f4d46;
+}
+
+.fa-facebook:hover {
+  color: #787569;
+}
+
+.fa-linkedin {
+  color: #4f4d46;
+}
+
+.fa-linkedin:hover {
+  color: #787569;
+}
+
+body {
+  background-color: #ede8d0;
+  font-family: "Allerta", sans-serif;
+  font-weight: 400;
+  color: #4f4d46;
+}
+
+button {
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
